@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "start": "npx serve out",
     "test": "vitest run"
   },
   "dependencies": {
@@ -24,8 +23,5 @@
     "jsdom": "^26.0.0",
     "typescript": "^5.8.0",
     "vitest": "^4.1.10"
-  },
-  "allowScripts": {
-    "fsevents@2.3.3": true
   }
 }
