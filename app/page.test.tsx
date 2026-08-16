@@ -22,6 +22,7 @@ const BANNED_PHRASES = [
   'state-of-the-art',
   'best-in-class',
   'industry-leading',
+  'industry-first',
   'scalable solutions',
   'cutting edge',
   'world class',

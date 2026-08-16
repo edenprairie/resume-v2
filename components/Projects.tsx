@@ -5,7 +5,7 @@ const projects = [
     name: 'Oncology prior authorization',
     where: 'CVS Health',
     detail:
-      'An industry-first regimen-based authorization system with a machine-learning recommendation engine for oncologists. Cut prior-authorization processing from two weeks to minutes.',
+      'A regimen-based authorization system with a machine-learning recommendation engine for oncologists. Cut prior-authorization processing from two weeks to minutes.',
   },
   {
     name: 'Medical claims & rebates (EDI 837)',

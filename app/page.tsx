@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <SiteNav />
-      <main>
+      <main id="main">
         <SiteHeader />
         <Experience />
         <Highlights />
