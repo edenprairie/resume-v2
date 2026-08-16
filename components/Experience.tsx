@@ -50,7 +50,7 @@ export default function Experience() {
   return (
     <section id="experience" className="section">
       <div className="container section-grid">
-        <div className="section-label">Experience</div>
+        <h2 className="section-label">Experience</h2>
         <div>
           {roles.map((r) => (
             <article className="role" key={r.title + r.company}>
