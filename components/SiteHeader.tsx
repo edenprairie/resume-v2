@@ -1,12 +1,12 @@
-const contact = [
-  { label: 'Email', value: 'junwang01@gmail.com', href: 'mailto:junwang01@gmail.com' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/junwang03', href: 'https://www.linkedin.com/in/junwang03/' },
-  { label: 'GitHub', value: 'github.com/edenprairie', href: 'https://github.com/edenprairie' },
+const contact: { label: string; value: string; href: string; external?: boolean }[] = [
+  { label: 'Email', value: 'junwang01@gmail.com', href: 'mailto:junwang01@gmail.com', external: false },
+  { label: 'LinkedIn', value: 'linkedin.com/in/junwang03', href: 'https://www.linkedin.com/in/junwang03/', external: true },
+  { label: 'GitHub', value: 'github.com/edenprairie', href: 'https://github.com/edenprairie', external: true },
 ];
 
 export default function SiteHeader() {
   return (
-    <header id="top" className="container" style={{ paddingTop: '5.5rem', paddingBottom: '4rem' }}>
+    <header id="top" className="container" style={{ paddingTop: '5.5rem', paddingBottom: '4rem', scrollMarginTop: '4.5rem' }}>
       <p
         style={{
           fontSize: '0.8rem',
@@ -55,7 +55,7 @@ export default function SiteHeader() {
       >
         <span>Eden Prairie, MN</span>
         {contact.map((c) => (
-          <a key={c.label} href={c.href} target="_blank" rel="noopener noreferrer">
+          <a key={c.label} href={c.href} {...(c.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
             {c.value}
           </a>
         ))}
