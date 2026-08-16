@@ -1,7 +1,7 @@
 import './skills.css';
 
 const groups = [
-  { name: 'AI / Machine Learning', skills: ['Generative AI', 'LLM & RAG', 'Azure OpenAI', 'Prompt engineering'] },
+  { name: 'AI / Machine Learning', skills: ['Generative AI', 'LLM & RAG', 'Azure OpenAI', 'Prompt Engineering'] },
   { name: 'Cloud & Platform', skills: ['Azure', 'AWS', 'Kubernetes', 'Terraform', 'Docker'] },
   { name: 'APIs & Services', skills: ['REST', 'gRPC', 'GraphQL', 'Microservices', 'API gateways'] },
   { name: 'Data', skills: ['MSSQL', 'PostgreSQL', 'MySQL', 'MongoDB', 'Elasticsearch', 'Kafka'] },
