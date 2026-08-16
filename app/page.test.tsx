@@ -13,6 +13,18 @@ const BANNED_PHRASES = [
   'think outside the box',
   'game-changer',
   'results-driven',
+  'disrupt',
+  'empower',
+  'unlock',
+  'seamless',
+  'robust',
+  'innovative',
+  'state-of-the-art',
+  'best-in-class',
+  'industry-leading',
+  'scalable solutions',
+  'cutting edge',
+  'world class',
 ];
 
 describe('resume page', () => {
@@ -38,7 +50,7 @@ describe('resume page', () => {
 
   it('contains no banned AI-flavored phrases', () => {
     render(<Home />);
-    const bodyText = screen.getByRole('main').textContent ?? '';
+    const bodyText = document.body.textContent ?? '';
     const lower = bodyText.toLowerCase();
     const hits = BANNED_PHRASES.filter((p) => lower.includes(p));
     expect(hits).toEqual([]);
