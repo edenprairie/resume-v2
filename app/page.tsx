@@ -1,3 +1,13 @@
+import SiteNav from '@/components/SiteNav';
+import SiteHeader from '@/components/SiteHeader';
+
 export default function Home() {
-  return <main className="container" style={{ paddingTop: '4rem' }}>Placeholder</main>;
+  return (
+    <>
+      <SiteNav />
+      <main>
+        <SiteHeader />
+      </main>
+    </>
+  );
 }
