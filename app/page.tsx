@@ -4,6 +4,9 @@ import Experience from '@/components/Experience';
 import Highlights from '@/components/Highlights';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
+import Education from '@/components/Education';
+import Community from '@/components/Community';
+import SiteFooter from '@/components/SiteFooter';
 
 export default function Home() {
   return (
@@ -15,7 +18,10 @@ export default function Home() {
         <Highlights />
         <Projects />
         <Skills />
+        <Education />
+        <Community />
       </main>
+      <SiteFooter />
     </>
   );
 }
