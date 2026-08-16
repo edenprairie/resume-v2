@@ -1,3 +1,5 @@
+import './experience.css';
+
 const projects = [
   {
     name: 'Oncology prior authorization',
