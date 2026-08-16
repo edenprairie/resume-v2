@@ -20,6 +20,7 @@ export const metadata: Metadata = {
       'Software engineering leadership, platform architecture, and AI-driven clinical systems.',
     url: 'https://cv.junwang.us',
     type: 'profile',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Jun Wang — Director of Software Engineering' }],
   },
 };
 
