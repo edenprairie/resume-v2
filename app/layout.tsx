@@ -10,6 +10,7 @@ const serif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cv.junwang.us'),
   title: 'Jun Wang — Director of Software Engineering',
   description:
     'Jun Wang is a software engineering leader in the Twin Cities. He leads technical architecture at Optum Behavioral Health and previously ran engineering teams at Amazon and CVS Health.',
