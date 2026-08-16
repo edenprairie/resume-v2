@@ -1,5 +1,6 @@
 import SiteNav from '@/components/SiteNav';
 import SiteHeader from '@/components/SiteHeader';
+import Experience from '@/components/Experience';
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <SiteNav />
       <main>
         <SiteHeader />
+        <Experience />
       </main>
     </>
   );
