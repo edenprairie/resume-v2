@@ -1,0 +1,19 @@
+.skill-group { margin-bottom: 1.8rem; }
+.skill-group:last-child { margin-bottom: 0; }
+.skill-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.skill-list { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.skill-tag {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: var(--paper-card);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.28rem 0.65rem;
+}
